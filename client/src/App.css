@@ -1,0 +1,26 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  height: 100vh;
+}
+
+.input-container .input {
+  outline: none;
+  width: 15rem;
+  padding: 8px 15px;
+  font-size: large;
+  margin: 4px;
+  display: block;
+  border-radius: 12px;
+}
+
+.input-container .button{
+  width: 15rem;
+  font-size: large;
+  padding: 8px 15px;
+  margin: 2px;
+  border-radius: 12px;
+  cursor: pointer;
+}
